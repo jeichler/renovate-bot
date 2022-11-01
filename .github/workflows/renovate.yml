@@ -1,7 +1,8 @@
 name: Renovate
-on:
+on: 
+  workflow_dispatch:
   schedule:
-    - cron: '0/5 * * * *'
+    - cron: '1 23* * *'
   push:
     branches:
       - main
