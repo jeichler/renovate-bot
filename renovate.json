@@ -6,5 +6,6 @@
   "platform": "github",
   "repositories": [
     "jeichler/redhat-cop-collections-ee",
+    "jeichler/renovate-bot"
   ]
 }
