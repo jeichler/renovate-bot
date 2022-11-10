@@ -3,7 +3,7 @@
   "username": "renovate-release",
   "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
   "onboarding": true,
-  "dependencyDashboard": true,
+  "dependencyDashboard": false,
   "platform": "github",
   "repositories": [
     "jeichler/redhat-cop-collections-ee",
