@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        uses: actions/checkout@v3.1.0
+        uses: actions/checkout@v3.2.0
       - name: renovate
         uses: renovatebot/github-action@v34.48.4
         with:
