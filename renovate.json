@@ -1,9 +1,8 @@
 {
   "dryRun": false,
-  "username": "renovate[bot]",
   "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
   "onboarding": true,
-  "dependencyDashboard": false,
+  "dependencyDashboard": true,
   "platform": "github",
   "repositories": [
     "jeichler/redhat-cop-collections-ee",
