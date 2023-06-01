@@ -7,6 +7,7 @@
   "repositories": [
     "jeichler/redhat-cop-collections-ee",
     "jeichler/renovate-bot",
-    "jeichler/tester-api-endpoint"
+    "jeichler/tester-api-endpoint",
+    "jeichler/ee"
   ]
 }
