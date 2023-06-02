@@ -4,7 +4,8 @@
         "config:base",
         ":rebaseStalePrs",
         ":semanticCommits",
-        "docker:pinDigests"
+        "docker:pinDigests",
+        "workarounds:supportRedHatImageVersion"
     ],
     "rebaseWhen": "behind-base-branch",
     "automergeType": "pr",
@@ -13,16 +14,6 @@
       {
         "matchUpdateTypes": ["minor", "patch"],
         "automerge": true
-      }
-    ],
-    "packageRules": [
-      {
-        "matchDatasources": ["docker"],
-        "matchPackagePrefixes": [
-          "registry.access.redhat.com/ubi8",
-          "registry.access.redhat.com/ubi9"
-        ],
-        "versioning": "redhat"
       }
     ]
   }
