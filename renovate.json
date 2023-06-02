@@ -5,7 +5,6 @@
   "dependencyDashboard": true,
   "platform": "github",
   "repositories": [
-    "jeichler/redhat-cop-collections-ee",
     "jeichler/renovate-bot",
     "jeichler/tester-api-endpoint",
     "jeichler/ee"
