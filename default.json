@@ -14,5 +14,15 @@
         "matchUpdateTypes": ["minor", "patch"],
         "automerge": true
       }
+    ],
+    "packageRules": [
+      {
+        "matchDatasources": ['docker'],
+        "matchPackagePrefixes": [
+          'registry.access.redhat.com/ubi8',
+          'registry.access.redhat.com/ubi9'
+        ],
+        versioning: 'redhat',
+      }
     ]
   }
