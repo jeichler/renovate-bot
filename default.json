@@ -22,7 +22,7 @@
           'registry.access.redhat.com/ubi8',
           'registry.access.redhat.com/ubi9'
         ],
-        versioning: 'redhat',
+        "versioning": 'redhat'
       }
     ]
   }
