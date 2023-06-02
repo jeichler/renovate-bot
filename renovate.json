@@ -6,7 +6,7 @@
   "platform": "github",
   "repositories": [
     "jeichler/renovate-bot",
-    "jeichler/tester-api-endpoint",
+    "jeichler/api-endpoint",
     "jeichler/execution-environments"
   ]
 }
