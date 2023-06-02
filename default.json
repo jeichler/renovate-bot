@@ -4,8 +4,7 @@
         "config:base",
         ":rebaseStalePrs",
         ":semanticCommits",
-        "docker:pinDigests",
-        "workarounds:supportRedHatImageVersion"
+        "docker:pinDigests"
     ],
     "rebaseWhen": "behind-base-branch",
     "automergeType": "pr",
