@@ -17,12 +17,12 @@
     ],
     "packageRules": [
       {
-        "matchDatasources": ['docker'],
+        "matchDatasources": ["docker"],
         "matchPackagePrefixes": [
-          'registry.access.redhat.com/ubi8',
-          'registry.access.redhat.com/ubi9'
+          "registry.access.redhat.com/ubi8",
+          "registry.access.redhat.com/ubi9"
         ],
-        "versioning": 'redhat'
+        "versioning": "redhat"
       }
     ]
   }
