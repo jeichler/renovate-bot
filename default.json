@@ -12,7 +12,7 @@
     "platformAutomerge": true,
     "packageRules": [
       {
-        "matchUpdateTypes": ["minor", "patch"],
+        "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
         "automerge": true
       }
     ],
