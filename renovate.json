@@ -12,7 +12,6 @@
   "repositories": [
     "jeichler/renovate-bot",
     "jeichler/api-endpoint",
-    "jeichler/execution-environments",
-    "jeichler/opendj"
+    "jeichler/execution-environments"
   ]
 }
