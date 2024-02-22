@@ -18,6 +18,6 @@ jobs:
         with:
           configurationFile: renovate.json
           token: ${{ secrets.RENOVATE_TOKEN }}
-          renovate-version: 37.191.0
+          renovate-version: ${{ vars.RENOVATE_VERSION }}
         env:
           LOG_LEVEL: ${{ vars.RENOVATE_LOG_LEVEL }}
