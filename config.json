@@ -12,6 +12,7 @@
     "jeichler/renovate-bot",
     "jeichler/api-endpoint",
     "jeichler/execution-environments",
-    "jeichler/renovate-reproducer"
+    "jeichler/renovate-reproducer",
+    "jeichler/no-as-a-service"
   ]
 }
